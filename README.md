@@ -5,7 +5,18 @@
 
 在Java开发的工作或学习中难免会踩坑，为此整理出一些平常中会遇到的案例，方便后来的小伙伴去避免，欢迎大家可以一起参与分享交流。
 
-### 1. Jdk中String.valueOf(Object obj)并不能返回你想要的结果
+------
+**Last Update 2018.6.30**
+
+
+------
+1.[Jdk中String.valueOf(Object obj)并不能返回你想要的结果](https://github.com/xiaolong7713/blog/edit/master/README.md#1.Jdk中String.valueOf(Object obj)并不能返回你想要的结果)
+2. [Jdk中Collections类中提供的empty集合不能直接添加值](https://github.com/xiaolong7713/blog/edit/master/README.md#2.Jdk中Collections类中提供的empty集合不能直接添加值)
+3. [百度](https://www.baidu.com)
+
+-----
+
+### 1.Jdk中String.valueOf(Object obj)并不能返回你想要的结果
 下面的这段代码
 ``` java
 public static void main(String[] args) {
@@ -22,7 +33,7 @@ public static String valueOf(Object obj) {
 ```
 这段源码，从jdk1.6到1.8没有修改，也许是作者不愿意返回空对象。
 
-### 2. Jdk中Collections类中提供的empty集合不能直接添加值
+### 2.Jdk中Collections类中提供的empty集合不能直接添加值
 下面的这段代码：
 ``` java
 static class StudentDto {
