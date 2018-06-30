@@ -8,15 +8,8 @@
 ------
 **Last Update 2018.6.30**
 
-
-------
-1.[Jdk中String.valueOf(Object obj)并不能返回你想要的结果](https://github.com/xiaolong7713/blog/edit/master/README.md#1.Jdk中String.valueOf(Object obj)并不能返回你想要的结果)
-2. [Jdk中Collections类中提供的empty集合不能直接添加值](https://github.com/xiaolong7713/blog/edit/master/README.md#2.Jdk中Collections类中提供的empty集合不能直接添加值)
-3. [百度](https://www.baidu.com)
-
 -----
-
-### 1.Jdk中String.valueOf(Object obj)并不能返回你想要的结果
+### 1. Jdk中String.valueOf(Object obj)并不能返回你想要的结果
 下面的这段代码
 ``` java
 public static void main(String[] args) {
@@ -33,7 +26,7 @@ public static String valueOf(Object obj) {
 ```
 这段源码，从jdk1.6到1.8没有修改，也许是作者不愿意返回空对象。
 
-### 2.Jdk中Collections类中提供的empty集合不能直接添加值
+### 2. Jdk中Collections类中提供的empty集合不能直接添加值
 下面的这段代码：
 ``` java
 static class StudentDto {
